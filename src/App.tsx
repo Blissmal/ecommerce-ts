@@ -1,11 +1,8 @@
-
-
-function App() {
-  
+const App = () => {
   return (
-    <>
-      <h1 className='text-xl text-center'>Hello world</h1>
-    </>
+    <div>
+      
+    </div>
   )
 }
 
