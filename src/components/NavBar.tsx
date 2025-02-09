@@ -12,7 +12,7 @@ const NavBar = () => {
               <BsSearch size={20} className="absolute top-0 right-0 mt-4 mr-5 text-gray-500"/>
             </div>
             <div className="flex gap-4">
-              <div className="icon__wrapper">
+              <div className="border border-gray-400 rounded-full w-[50px] h-[50px] grid place-items-center text-[22px]">
                 <AiOutlineUser />
               </div>
             </div>
