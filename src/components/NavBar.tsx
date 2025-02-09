@@ -1,5 +1,6 @@
 import { AiOutlineShoppingCart, AiOutlineUser } from "react-icons/ai"
 import { BsSearch } from "react-icons/bs"
+import CartCoundBadge from "./CartCoundBadge"
 
 const NavBar = () => {
   return (
@@ -15,8 +16,9 @@ const NavBar = () => {
               <div className="border border-gray-400 rounded-full w-[50px] h-[50px] grid place-items-center text-[22px]">
                 <AiOutlineUser />
               </div>
-              <div className="border border-gray-400 rounded-full w-[50px] h-[50px] grid place-items-center text-[22px]">
+              <div className="relative border border-gray-400 rounded-full w-[50px] h-[50px] grid place-items-center text-[22px]">
                 <AiOutlineShoppingCart />
+                <CartCoundBadge size={`w-[25px] h-[25px]`}/>
               </div>
             </div>
         </div>
