@@ -1,4 +1,4 @@
-import { AiOutlineUser } from "react-icons/ai"
+import { AiOutlineShoppingCart, AiOutlineUser } from "react-icons/ai"
 import { BsSearch } from "react-icons/bs"
 
 const NavBar = () => {
@@ -14,6 +14,9 @@ const NavBar = () => {
             <div className="flex gap-4">
               <div className="border border-gray-400 rounded-full w-[50px] h-[50px] grid place-items-center text-[22px]">
                 <AiOutlineUser />
+              </div>
+              <div className="border border-gray-400 rounded-full w-[50px] h-[50px] grid place-items-center text-[22px]">
+                <AiOutlineShoppingCart />
               </div>
             </div>
         </div>
